@@ -1,0 +1,172 @@
+<html>
+<head>
+<title>HTML Table</title>
+</head>
+<style>
+input[type=text], select {
+width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+text-align:center;
+    }
+body{
+font-family: Arial, Helvetica, sans-serif;
+padding-top: 100px;
+}
+input[type=email], select {
+width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+text-align:center;
+    }
+input[type=password], select {
+width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+text-align:center;
+    }
+input[type=number], select {
+width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+text-align:center;
+    }   
+input[type=date], select {
+width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+text-align:center;
+    } 
+input[type=submit] {
+width: 25%;
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+    }
+input[type=reset] {
+width: 25%;
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+    }
+input{text-align: center;
+padding-left: 150px;}
+
+input[type=submit]:hover {
+background-color: #45a049;
+    }
+
+div {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+    }
+table{width: 900px;
+height: 100px;
+background-color: #E8F6EF;
+}
+td{padding-left: 100px;
+text-align: center;}
+caption{
+font-family: "Times New Roman", Times, serif;font-size: 40px;
+}
+</style>
+<body>
+<form method="" action="">
+<table border="1" align="center" width="500" bgcolor="#CCCCCC" >
+<caption>Yahoo Registration form</caption>
+<tr>
+<th>Enter your first name</th>
+<td><input type="text" name="fn" id="fn1" maxlength="10" title="Enter your first name" placeholder="Enter your first name" required/></td>
+</tr>
+<tr>
+<th>Enter your last name</th>
+<td><input type="text" title="Enter your last name" placeholder="Enter your last name" required/></td>
+</tr>
+<tr>
+<th>Enter your password</th>
+<td><input type="password" title="Enter your password" placeholder="Enter your password" required/></td>
+</tr>
+<tr>
+<th>ReEnter your password</th>
+<td><input type="password" title="Reenter your password" placeholder="Reenter your password" required/></td>
+</tr>
+<tr>
+<th>Enter your email</th>
+<td><input type="email" title="Enter your email" placeholder="Enter your email" required/></td>
+</tr>
+<tr>
+<th>Enter your mobile</th>
+<td><input type="number" title="Enter your mobile number" placeholder="Enter your mobile number" required/></td>
+</tr>
+<tr>
+<th>Enter your address </th>
+<td><textarea rows="8" cols="20"></textarea></td>
+</tr>
+<tr>
+<th>Select your gender</th>
+<td>
+male<input type="radio" name="g" value="m"/>
+female<input type="radio" name="g" value="f"/>
+</td>
+</tr>
+<tr>
+<th>Select your hobbies</th>
+<td>
+Drawing<input type="checkbox" name="x[]" value="h"/>
+Travelling<input type="checkbox" name="x[]" value="h2"/>
+Singing<input type="checkbox" name="x[]" value="h3"/>
+</td>
+</tr>
+<tr>
+<th>Select your DOB</th>
+<td><input type="date"/></td>
+</tr>
+<tr>
+<th>Select your Country</th>
+<td>
+<select name="country">
+<option value="" selected="selected" disabled="disabled">Select your country</option>
+<option value="1">India</option>
+<option value="2">Pakistan</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center"><input type="submit" value="Submit"/>
+<input type="reset" value="Reset "/>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
